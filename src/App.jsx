@@ -76,9 +76,9 @@ const Marquee = () => (
 
 const Team = () => (
   <motion.section id="team" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp} className="p-8 text-center text-blue-900 bg-white">
-    <div className='max-w-full mx-auto bg-blue-700 pt-4'>
+    <div className='max-w-full pt-4 mx-auto bg-blue-700'>
       <h2 className="mb-4 text-3xl font-bold text-white">Our Team</h2>
-    <div className="p-4 grid max-w-full gap-6 mx-auto md:grid-cols-5">
+    <div className="grid max-w-full gap-6 p-4 mx-auto md:grid-cols-5">
       <div className="flex flex-wrap justify-center gap-6">
       <motion.div variants={fadeInUp} className="p-4 text-blue-900 bg-blue-100 shadow-md w-60 rounded-xl">
         <img src="https://static.wixstatic.com/media/eabcf6_43830d2c7a32460e8eaa1fa71ec85c0e~mv2.jpg/v1/fill/w_473,h_630,al_c,lg_1,q_80,enc_avif,quality_auto/Proprietor_edited_edited.jpg" alt="Team Member" className="w-full mb-3 rounded-full" />
@@ -109,9 +109,9 @@ const Team = () => (
     </div>
     <div className="flex flex-wrap justify-center gap-6">
       <motion.div variants={fadeInUp} className="p-4 text-blue-900 bg-blue-100 shadow-md w-60 rounded-xl">
-        <img src="https://static.wixstatic.com/media/eabcf6_3b5016b02e3a40cb90c6ffe335ce2ef2~mv2.jpg/v1/fill/w_473,h_630,al_c,lg_1,q_80,enc_avif,quality_auto/COO_edited_edited.jpg" alt="Team Member" className="w-full mb-3 rounded-full" />
-        <h4 className="text-lg font-semibold">G B Arjun</h4>
-        <p className="text-sm">Chief Operating Officer (COO)</p>
+        <img src="https://static.wixstatic.com/media/eabcf6_a69ccfb7e53d41609fdd93be93461928~mv2.jpg/v1/fill/w_478,h_637,al_c,lg_1,q_80,enc_avif,quality_auto/287372%20(2).jpg" alt="Team Member" className="w-full mb-3 rounded-full" />
+        <h4 className="text-lg font-semibold">Adv. Hiran Krishnaswamy</h4>
+        <p className="text-sm">CHIEF LEGAL ADVISOR</p>
       </motion.div>
     </div>
     </div>
@@ -134,7 +134,7 @@ const Branches = () => (
 );
 
 const Contact = () => (
-  <motion.section id="contact" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp} className="p-8 text-center text-blue-900 bg-white">
+  <motion.section id="contact" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp} className="p-8 text-center text-blue-900 bg-gray-100">
     <h2 className="mb-4 text-3xl font-bold">Contact Us</h2>
     <form className="max-w-xl mx-auto space-y-4">
       <input type="text" placeholder="Name" className="w-full p-2 border rounded" />
@@ -146,8 +146,9 @@ const Contact = () => (
 );
 
 const Footer = () => (
-  <footer className="p-4 text-center text-white bg-blue-800">
-    <p>&copy; 2025 V B Associates. All rights reserved.</p>
+  <footer className="p-4 text-white bg-blue-800">
+    <p className='text-center'>&copy; 2025 V B Associates. All rights reserved.</p>
+
   </footer>
 );
 
