@@ -10,7 +10,15 @@ export default {
         royal: '#1E3A8A', 
       },
       animation: ['motion-safe'],
-
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        marquee: 'marquee 20s linear infinite',
+      },
     },
   },
   plugins: [],
