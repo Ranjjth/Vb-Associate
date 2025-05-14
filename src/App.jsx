@@ -42,8 +42,8 @@ const Header = () => {
         </svg>
       </div>
       <nav className="hidden space-x-4 md:flex">
-        <a href="#about" >About</a>
-        <a href="#services">Services</a>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
         <a href="#team">Team</a>
         <a href="#footer">Branches</a>
         <a href="#contact">Contact</a>
@@ -225,7 +225,7 @@ const Contact = () => (
   <motion.section id="contact" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp} className="p-8 text-center text-blue-900 bg-gray-100">
 
     <div className='mx-auto mb-10 text-center'>
-          <h2 className="mb-4 text-3xl font-bold">Contact Us</h2>
+          <h2 className="mb-4 text-3xl font-bold underline decoration-orange-400">Contact Us!</h2>
           <p className="mb-2">V B Associates</p>
           <p className="mb-2"># 3/3, 1ST FLOOR, 2nd Cross, Nehru Nagar, Seshadripuram, Bengaluru, Karnataka - 560020</p>
           <p className="mb-2">Phone: +91 9900062235</p>
